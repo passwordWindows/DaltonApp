@@ -137,6 +137,7 @@ public class cameraActivity<len> extends AppCompatActivity {
 
             realpath = path;
             uploadfile();
+            // SLEEP IS REQUIRED TO GIVE TIME TO SERVER TO PROCESS DATA
             try {
                 sleep(20000);
             } catch (InterruptedException e) {
